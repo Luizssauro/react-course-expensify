@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExpenseListItem /> should render ListItem from the first expense 1`] = `
+<div>
+  <h3>
+     
+    <Link
+      to="/edit/1"
+    >
+      Gum
+    </Link>
+  </h3>
+  <p>
+    195
+     -
+    0
+  </p>
+</div>
+`;
