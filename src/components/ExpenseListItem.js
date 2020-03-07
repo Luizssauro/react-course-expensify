@@ -3,18 +3,6 @@ import { Link } from 'react-router-dom';
 import moment from 'moment';
 import numeral from 'numeral';
 
-numeral.register('locale', 'pt-br', {
-	delimiters: {
-		thousands: ' ',
-		decimal: ','
-	},
-	currency: {
-		symbol: 'R$'
-	}
-});
-
-numeral.locale('pt-br');
-
 const ExpenseListItem = ({ description, amount, createdAt, id }) => {
 	return (
 		<div>

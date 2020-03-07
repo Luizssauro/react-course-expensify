@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExpenseListItem /> should render ExpenseSummary whith expenses 1`] = `
+<div>
+  <p>
+    Viewing 5 expenses totalling $51,425.63
+  </p>
+</div>
+`;
+
+exports[`<ExpenseListItem /> should render ExpenseSummary whith only one expense 1`] = `
+<div>
+  <p>
+    Viewing 1 expense totalling $33.33
+  </p>
+</div>
+`;
+
+exports[`<ExpenseListItem /> should render ExpenseSummary whithout expenses 1`] = `
+<div>
+  <p>
+    There is no expenses yet!
+  </p>
+</div>
+`;
